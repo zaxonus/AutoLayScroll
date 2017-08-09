@@ -109,8 +109,8 @@ class ViewController: UIViewController {
                 NSLayoutConstraint(item: view,
                     attribute: .height,
                     relatedBy: .equal,
-                    toItem: contentView,
-                    attribute: .height,
+                    toItem: nil,
+                    attribute: .notAnAttribute,
                     multiplier: 0.0,
                     constant: 50.0 * CGFloat(1 + arc4random_uniform(7)))])
             
